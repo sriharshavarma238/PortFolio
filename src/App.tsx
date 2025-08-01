@@ -87,10 +87,10 @@ function App() {
     {
       id: 2,
       title: 'NxtQuiz - Interactive Quiz Platform',
-      description: 'An engaging quiz application built with React.js featuring multiple categories, timer functionality, score tracking, and interactive UI. Users can test their knowledge across various topics with real-time feedback and detailed results.',
+      description: 'A comprehensive quiz game platform built with React.js featuring an intuitive interface for testing knowledge across various topics. The application includes interactive question navigation, real-time score tracking, and detailed result analysis with performance feedback.',
       image: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=600',
       tech: ['React.js', 'JavaScript', 'CSS3', 'HTML5'],
-      live: '#',
+      live: 'https://quiz-game-one-opal.vercel.app/',
     },
     {
       id: 3,

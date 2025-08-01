@@ -86,6 +86,14 @@ function App() {
     },
     {
       id: 2,
+      title: 'NxtQuiz - Interactive Quiz Platform',
+      description: 'An engaging quiz application built with React.js featuring multiple categories, timer functionality, score tracking, and interactive UI. Users can test their knowledge across various topics with real-time feedback and detailed results.',
+      image: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=600',
+      tech: ['React.js', 'JavaScript', 'CSS3', 'HTML5'],
+      live: '#',
+    },
+    {
+      id: 3,
       title: 'Jobby App',
       description: 'A comprehensive job search platform built with React.js. Features job listings, search functionality, filtering options, and user authentication. Responsive design ensures optimal experience across all devices. Login with username: rahul, password: rahul@2021',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -94,7 +102,7 @@ function App() {
       credentials: { username: 'rahul', password: 'rahul@2021' }
     },
     {
-      id: 3,
+      id: 4,
       title: 'Tasty Kitchen',
       description: 'A food delivery application with an intuitive interface for browsing restaurants and ordering food. Built with React.js, featuring cart functionality, restaurant listings, and responsive design for seamless user experience. Login with username: rahul, password: rahul@2021',
       image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -233,7 +241,7 @@ function App() {
               <div className={`w-80 h-80 mx-auto rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1`}>
                 <div className={`w-full h-full rounded-full ${isDark ? 'bg-gray-800' : 'bg-white'} flex items-center justify-center`}>
                   <img 
-                    src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                    src="/src/assets/linkedin photo.jpg" 
                     alt="Profile" 
                     className="w-72 h-72 rounded-full object-cover"
                   />

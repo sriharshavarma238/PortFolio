@@ -241,7 +241,7 @@ function App() {
               <div className={`w-80 h-80 mx-auto rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1`}>
                 <div className={`w-full h-full rounded-full ${isDark ? 'bg-gray-800' : 'bg-white'} flex items-center justify-center`}>
                   <img 
-                    src="/src/assets/linkedin photo.jpg" 
+                    src="https://res.cloudinary.com/dmurwxefk/image/upload/v1754079864/linkedin_photo_vxog8x.jpg" 
                     alt="Profile" 
                     className="w-72 h-72 rounded-full object-cover"
                   />
